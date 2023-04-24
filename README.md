@@ -3,3 +3,9 @@ This is a very simple implementation of an ElGamal command line tool. You can ge
 
 
     _______________________________________________________________________________________________________________
+
+Insecurities:
+    - private key information stored in plaintext
+    - hash function isn't pre-image or collision resistant
+    - may be susceptible to linear cryptanalysis
+    
